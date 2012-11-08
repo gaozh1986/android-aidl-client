@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+    <Button 
+	android:id="@+id/boundAIDLService"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:text="绑定AIDL服务" />
+  <Button 
+	android:id="@+id/getBoundAIDLServicePro"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:text="获取绑定服务的count属性" />
+  <Button 
+	android:id="@+id/unboundAIDLService"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:text="解除绑定AIDL服务" />
+  <EditText 
+	android:id="@+id/count"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" />
+  <Button 
+	android:id="@+id/setCount"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:text="设置" />
+</LinearLayout>
